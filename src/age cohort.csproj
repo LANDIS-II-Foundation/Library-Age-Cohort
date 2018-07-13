@@ -2,24 +2,37 @@
 
   <PropertyGroup>
     <RootNamespace>Landis.Library.AgeOnlyCohorts</RootNamespace>
-    <AssemblyName>Landis.Library.AgeOnlyCohorts</AssemblyName>
-    <AssemblyTitle>Landis.Library.AgeOnlyCohorts</AssemblyTitle>
-    <AssemblyVersion>2.1</AssemblyVersion>
-    <AssemblyDescription>AgeOnly Cohort Library</AssemblyDescription>
+    <AssemblyName>Landis.Library.AgeOnlyCohorts-v3</AssemblyName>
+    <AssemblyTitle>Landis.Library.AgeOnlyCohorts-v3</AssemblyTitle>
+    <AssemblyCompany>LANDIS-II Foundation</AssemblyCompany>
+    <AssemblyProduct>Landis.Library.AgeOnlyCohorts-v3</AssemblyProduct>
+    <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>    
+    <AssemblyVersion>3.0</AssemblyVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Age-Cohort/blob/master/LICENSE</PackageLicenseUrl>
-    <Authors>LANDIS-II Foundation</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://sites.google.com/site/landismodel/home</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Library-Age-Cohort</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <RepositoryType>git</RepositoryType>        
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Library-Age-Cohort/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>    
+    <NeutralLanguage>English</NeutralLanguage>    
+    <Authors>LANDIS-II Foundation</Authors>
+    <Product>Landis.Library.AgeOnlyCohorts-v3</Product>
+    <Copyright>Landis-II-Foundation</Copyright>
+    <Version>3.0</Version>
     <PackageTags>LANDIS-II;Landis;Library;Age only cohorts</PackageTags>
-    <NeutralLanguage>English</NeutralLanguage>
+    <Description>Age-only cohorts are the base type with only cohort age and species.</Description>
+    <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
+    <FileVersion>7.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Landis.Core" Version="1.0.0" />
-    <PackageReference Include="Landis.Library.Cohorts" Version="1.0.0" />
+    <PackageReference Include="Landis.Core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Landis.Library.Cohorts-v2">
+      <HintPath>lib\Landis.Library.Cohorts-v2.dll</HintPath>
+    </Reference>
   </ItemGroup>
   
 </Project>
