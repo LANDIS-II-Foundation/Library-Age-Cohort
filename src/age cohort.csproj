@@ -22,7 +22,7 @@
     <PackageTags>LANDIS-II;Landis;Library;Age only cohorts</PackageTags>
     <Description>Age-only cohorts are the base type with only cohort age and species.</Description>
     <PackageReleaseNotes>.NET Standard 2.0 update.</PackageReleaseNotes>
-    <FileVersion>7.0.0.0</FileVersion>
+    <FileVersion>3.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
