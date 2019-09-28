@@ -8,7 +8,7 @@ namespace Landis.Library.AgeOnlyCohorts
     /// The age cohorts for a particular species at a site.
     /// </summary>
     public interface ISpeciesCohorts
-        : Landis.Library.Cohorts.ISpeciesCohorts<ICohort>
+        : Landis.Cohorts.ISpeciesCohorts<ICohort>
     {
     }
 }

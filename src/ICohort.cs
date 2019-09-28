@@ -1,4 +1,4 @@
-//using Landis.Core;
+using Landis.Cohorts;
 
 
 namespace Landis.Library.AgeOnlyCohorts
@@ -7,7 +7,7 @@ namespace Landis.Library.AgeOnlyCohorts
     /// A species cohort with only age information.
     /// </summary>
     public interface ICohort
-        : Landis.Library.Cohorts.ICohort
+        : Landis.Cohorts.ICohort
     {
         /// <summary>
         /// The cohort's age (years).
